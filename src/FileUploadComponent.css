@@ -1,0 +1,62 @@
+/* FileUploadComponent.css */
+.container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .csv-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .csv-table th,
+  .csv-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .csv-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .delete-column-btn {
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .add-row-btn,
+  .add-column-btn,
+  .download-btn,
+  .upload-btn {
+    margin: 5px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-row-btn:hover,
+  .add-column-btn:hover,
+  .download-btn:hover,
+  .upload-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .add-row-btn:active,
+  .add-column-btn:active,
+  .download-btn:active,
+  .upload-btn:active {
+    background-color: #3e8e41;
+  }
+  
